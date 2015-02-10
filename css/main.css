@@ -1,0 +1,178 @@
+html, body {
+height: 100%;
+max-height: 100%;
+}
+ 
+* html #page {
+height: 100%;
+}
+ 
+*{
+    margin:0;
+    padding:0;
+   	box-sizing: border-box;      
+
+}
+ 
+body{
+	max-height: 100%;
+	background-image: url(../images/background.jpg);
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	
+}
+
+a:link {text-decoration:none;}
+
+#home{
+	max-height: 100%;
+	height: 100%;
+	width: 100%;
+	background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,1.00) 43.55%);
+	    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,1.00) 43.55%);
+	    padding-top: 20%;
+    
+}
+
+#logo{
+    background-image: url(../images/logo.png);
+    width: 546px;
+    height:110px;
+    margin-left:auto;
+    margin-right:auto;
+    height: 110px;
+
+    
+}
+ 
+ 
+#navigation{
+    height: 200px;;
+    width: 600px;
+    margin-left:auto;
+    margin-right:auto;  
+
+}
+ 
+#philButton{
+    height: 110px;
+    width: 110px;
+    margin-right:100px;
+    background-image:url(../images/philo.png);
+    float:left;
+}
+ 
+#philButton:hover{
+    height: 110px;
+    width: 110px;
+    background-image:url(../images/philoH.png);
+}
+ 
+ 
+ 
+#servButton {
+    height: 110px;
+    width: 110px;
+    margin-right:100px;
+    float:left;
+    background-image:url(../images/services.png)
+ 
+}
+ 
+#servButton:hover {
+    height: 110px;
+    width: 110px;
+    float:left;
+    background-image:url(../images/servicesH.png)
+ 
+}
+ 
+ 
+#conButton{
+    height: 110px;
+    width: 110px;
+    background-image:url(../images/contact.png);
+    float:left;
+ 
+}
+#conButton:hover{
+    height: 110px;
+    width: 110px;
+    background-image: url(../images/contactH.png);
+}
+
+
+
+#philosophy{
+	height: 100%;
+	background-color: grey;
+   	text-decoration: none;
+   	color: white;
+
+}
+
+
+.bigText{
+	padding: 20%;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100; 
+	font-size: 300%;
+	color: black;
+	text-decoration: none;
+}
+
+
+#services{
+	height: 100%;
+	background-color: white;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300; 
+	color: black;
+	
+}
+
+.smallText{
+	padding-top: 8%;
+	padding-left: 20%;
+	font-size: 150%;
+}
+
+img.device{
+	margin-top: 5%;
+	margin-left: 25%;
+	margin-right: auto;
+}
+
+#contact{
+	height: 100%;
+	background-color: black;
+	color: white;
+}
+
+.bigText2{
+	padding: 20%;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100; 
+	font-size: 300%;
+	color: white;
+	text-decoration: none;
+}
+
+#payment{
+	height: 100%;
+	background-color: white;
+	color: white;
+}
+
+.paymentText{
+	padding: 20%;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100; 
+	font-size: 200%;
+	color: #6cf;
+	text-decoration: none;
+}
+
+
+div#preload { display: none; }
